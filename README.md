@@ -7,11 +7,16 @@ Open the file "Mobile Robot (A-star).py" in an IDE (Spyder, VS Code etc) of your
 This code aims at implementing A* algorithm for a mobile robot to solve a given map. All the nodes corresponding with different points (x,y) on the map are explored until a goal is found.
 
 ## Dependencies
--- python -version 3
--- numpy
--- sys
--- matplotlib
--- time
+
+a) python -version 3
+
+b) numpy
+
+c) sys
+
+d) matplotlib
+
+e) time
 
 ## Function Descriptions
 ### 1) workspace_check
@@ -29,9 +34,13 @@ In this function the initial input values (x, y, theta) are taken and action set
 ## NOTE :
 
 -- angle between action set vectors = 30 degrees
+
 -- action set vector magnitude = 7 units
+
 -- Threshold Distance = 0.5 units
+
 -- Threshold Angle = 30 degrees
+
 -- Goal Threshold Radius = 1.5 units
  
 Using Matplotlib, animation is generated. Firstly, animation for node exploration is generated and followed by optimal path trajectory's animation. 150 frames for node exploration and 50 frames for solution trajectory are used as default values for the animation. The resulting animation is also stored in Mobile Robot Visualization (A-star).mp4 file.
